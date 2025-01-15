@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PsPass</title>
+    <link type="image/png" sizes="16x16" rel="shortcut icon" href="../img/logo_main.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/ListarEnderecos.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="esquerdo">
+            <img src="../img/logo_main.png" alt="" class="logo" onclick="window.location.assign('../Home.html')">
+            <p>PsPass</p>
+        </div>
+        <div class="direito">
+            <input type="button" value="Cadastrar endereço" class="btn-cadastro" id="endereco" onclick="window.location.assign('./Endereco.html')">
+            <img src="../img/user.png" alt="">
+        </div>
+    </header>
+    
+    <main>
+        <div id="card">
+            <img src="../img/user.png" alt="">
+            <h1>INFORMAÇÕES</h1>
+            <h2>E-MAIL</h2>
+            <p>teste@gmail.com</p>
+            <h2>TELEFONE</h2>
+            <p>(11) 96533-1845</p>
+            <h2>NOME</h2>
+            <p>Claudinho</p>
+        </div>
+        <table id="enderecos">
+            <tr id="legenda-tabela">
+                <th>ID</th>
+                <th>Apelido</th>
+                <th>CEP</th>
+                <th>Endereço</th>
+                <th>Ação</th>
+            </tr>
+        </table>
+    </main>
+    <script src="../js/ListarEnderecos.js"></script>
+    <script src="../js/ExcluirEndereco.js"></script>
+</body>
+</html>

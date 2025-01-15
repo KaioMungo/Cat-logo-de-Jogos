@@ -1,0 +1,145 @@
+body {
+    background-color: #1A1B1E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.menu{
+    width: 100vw;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal{
+    width: 90vw;
+    margin-top: 24px;
+    padding-left: 75px;
+}
+
+.principal h1{
+    font-size: 27px;
+}
+
+.menu .esquerdo{
+    padding-left: 75px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.menu .esquerdo p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.menu .direito{
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu .direito img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    width: 248px;
+    height: 40px;
+    background-color: #9140FF;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Bahnschrift';
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: #9040ffa4 0px 1px 10px 0px;
+}
+
+.container-jogos{
+    margin-bottom: 30px;
+}
+
+.container-jogo{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container-jogo img{
+    width: 206px;
+    height: 309px;
+    border-radius: 5px;
+}
+
+.jogos{
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+}
+
+.container-genero{
+    width: 201px;
+    height: 96px;
+    background-color: #9140FF;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    box-shadow: #9040ffa4 0px 1px 10px 0px;
+}
+
+.container-genero h1{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.container-genero img{
+    width: 32px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+footer{
+    width: 100vw;
+    height: 236px;
+    background-color: #000;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer h2{
+    color: #c1c1c1;
+    font-size: 18px;
+}
+
+footer p{
+    color: #7a7a7a;
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar{
+    height: 5px;
+    background-color: #1A1B1E;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #7a7a7a;
+    border-radius: 5px;
+}

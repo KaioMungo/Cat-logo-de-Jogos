@@ -1,0 +1,114 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+}
+
+.container{
+    background-color: #1a1b1eea;
+    width: 540px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.container:nth-child(2){
+    margin-left: -5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+input{
+    border: 1px solid #808080;
+    outline: none;
+    width: 470px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 13px;
+    font-size: 19.5px;
+}
+
+input[type=button]{
+    width: 135px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #9140FF;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition-duration: 0.2s;
+    padding: 0 6px;
+}
+
+input[type=button]:hover{
+    box-shadow: #9040ff73 0px 4px 8px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 17px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#password-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#terms-field{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+#side-img{
+    width: 330px;
+    height: 457px;
+    border-radius: 10px;
+}
+
+#olho{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+label{
+    color: #dcdcdc;
+}

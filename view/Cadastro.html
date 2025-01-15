@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PsPass</title>
+    <link type="image/png" sizes="16x16" rel="shortcut icon" href="../img/logo_main.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Auth.css">
+    <script src="../js/Cadastro.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img id="logo" src="../img/logo_main.png" alt="logo">
+        <form>
+            <input type="text" id="name" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <div id="password-field">
+                <input type="password" id="password" placeholder="Senha">
+                <img id="olho" src="../img/senha_aparente.png" alt="" onclick="mostrarSenha()">
+            </div>
+            <input type="text" id="cpf" placeholder="CPF">
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday" id="birthday">
+            <div id="terms-field">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">Você aceita os termos e condições?</label>
+            </div>
+            <input type="button" value="Cadastro" onclick="cadastroUsuario()">
+            <a href="./Login.html">Já tem uma conta? Entre agora!</a>
+        </form>
+    </div>
+    <div class="container">
+        <img id="side-img" src="../img/waluigi.webp" alt="img">
+    </div>
+</body>
+
+</html>

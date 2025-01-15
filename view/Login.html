@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PsPass</title>
+    <link type="image/png" sizes="16x16" rel="shortcut icon" href="../img/logo_main.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Auth.css">
+    <script src="../js/Login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img id="logo" src="../img/logo_main.png" alt="logo">
+        <form>
+            <input type="email" id="email" placeholder="E-mail">
+            <div id="password-field">
+                <input type="password" id="password" placeholder="Senha">
+                <img id="olho" src="../img/senha_aparente.png" alt="" onclick="mostrarSenha()">
+            </div>
+            <div id="terms-field">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">Manter-me logado</label>
+            </div>
+            <input type="button" value="Entrar" onclick="loginUsuario()">
+            <a href="./Cadastro.html">Não possui uma conta? Crie agora!</a>
+        </form>
+    </div>
+    <div class="container">
+        <img id="side-img" src="../img/wario.webp" alt="img" style="width: 360px;">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PsPass</title>
+    <link type="image/png" sizes="16x16" rel="shortcut icon" href="./img/logo_main.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Home.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="esquerdo">
+            <img src="./img/logo_main.png" alt="" class="logo">
+            <p>PsPass</p>
+        </div>
+        <div class="direito">
+            <input type="button" value="Cadastrar endereço" class="btn-cadastro" id="endereco" onclick="window.location.assign('./view/Endereco.html')" style="display: none;">
+            <input type="button" value="Endereços Cadastrados" class="btn-cadastro" id="enderecos" onclick="window.location.assign('./view/ListarEnderecos.html')" style="display: none;">
+            <input type="button" value="Logout" class="btn-cadastro" id="logout" onclick="logoutUser()" style="display: none;">
+            <input type="button" value="Login" class="btn-cadastro" id="login" onclick="window.location.assign('./view/Login.html')">
+            <input type="button" value="Cadastro" class="btn-cadastro" id="cadastro" onclick="window.location.assign('./view/Cadastro.html')">
+            <img src="./img/user.png" alt="">
+        </div>
+    </header>
+    <main class="principal">
+        <div class="container-jogos">
+            <h1>Jogos mais populares do momento</h1>
+            <div id="jogos-populares" class="jogos">
+
+            </div>
+        </div>
+
+        <div class="container-jogos">
+            <h1>Jogos adicionados recentemente</h1>
+            <div id="jogos-recentes" class="jogos">
+
+            </div>
+        </div>
+
+        <div class="container-jogos">
+            <h1>Jogue com amigos</h1>
+            <div id="jogos-multi" class="jogos">
+
+            </div>
+        </div>
+
+        <div class="container-jogos">
+            <h1>Gêneros</h1>
+            <div id="generos" class="jogos">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="integrantes">
+            <h2>Integrantes:</h2>
+            <p>Fábio Luiz Garrote Ramaldes</p>
+            <p>Kaio Nogueira Mungo</p>
+            <p>Bruna Bispo Andreata</p>
+            <p>Matheus Santos Brito</p>
+            <p>Luiz Henrique Barros Calazans</p>
+        </div>
+        <div class="ras">
+            <h2>Ra:</h2>
+            <p>2400715</p>
+            <p>2401350</p>
+            <p>2400468</p>
+            <p>2400116</p>
+            <p>2400684</p>
+        </div>
+        <div class="emails">
+            <h2>Email:</h2>
+            <p>fabio.ramaldes@aluno.faculdadeimpacta.com.br</p>
+            <p>kaio.mungo@aluno.faculdadeimpacta.com.br</p>
+            <p>bruna.andreata@aluno.faculdadeimpacta.com.br</p>
+            <p>matheus.sbrito@aluno.faculdadeimpacta.com.br</p>
+            <p>luiz.calazans@aluno.faculdadeimpacta.com.br</p>
+        </div>
+    </footer>
+    <script src="./js/Home.js"></script>
+    <script src="./js/Logout.js"></script>
+</body>
+
+</html>
